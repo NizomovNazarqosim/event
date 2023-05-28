@@ -34,7 +34,7 @@ app.put('/:id', (req, res) => {
 })
 
 app.delete('', (req, res) => {
-    res.sendFile('aefhbevhrfjbhvhjk', 'C:\Users\nazar\OneDrive\Desktop\images\cat.jpg')
+    res.sendFile('fileName', 'path')
 })
 
 
