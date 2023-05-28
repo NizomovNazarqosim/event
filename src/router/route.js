@@ -4,7 +4,7 @@ const queryParse = require("../utils/query-param");
 const buffer = require('buffer')
 const path = require('path')
 const fs = require('fs')
-const xlib = require('zlib')
+const zlib = require('zlib')
 const processMiddleware = require('../middleware/middleware')
 let server;
 
